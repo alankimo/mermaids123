@@ -1,0 +1,186 @@
+@import 'bootstrap/css/bootstrap.min.css'
+@import 'vars.styl'
+/*----------------------------------------------------------------------------------------fuentes*/
+@font-face
+	font-family museosansrounded
+	src url(fonts/museosansrounded-300-webfont.ttf)
+	
+@font-face
+	font-family museosansrounded
+	src url(fonts/museosansrounded-500-webfont.ttf)
+/*----------------------------------------------------------------------------------------generales*/
+body
+	font-family museosansrounded
+	
+h4
+	text-transform uppercase
+	font-weight 500
+/*----------------------------------------------------------------------------------------header*/
+header
+	background-color morado
+	height 77px
+	width auto
+	nav
+		ul
+			position relative
+			top 30px
+			li
+				display inline-block
+				a
+					background-color morado
+					padding 8px 10px
+					color #fff
+					&:hover
+						text-decoration none
+						color #fff
+						padding 8px 10px
+						background-color moradodark
+						border-radius(10px)
+						transition(.2s)
+	.logo
+		width 317px
+		height auto
+		margin 20px auto 0 auto
+		z-index 3
+		position relative
+	.secondmenu
+		ul
+			position relative
+			top 30px
+			right 22px
+			
+			li
+				display inline-block
+				
+				a
+					background-color morado
+					padding 8px 10px
+					color #fff
+					&:hover
+						text-decoration none
+						color #fff
+						padding 8px 10px
+						background-color moradodark
+						border-radius(10px)
+						transition(.2s)
+.iconos
+	position relative
+	margin-left 192px
+	img
+		margin-right 20px
+.carrito
+	position relative
+	bottom 26px
+	left 10px
+	margin-left 250px
+	padding 8px 10px
+	background-color morado
+	&:hover			
+		padding 8px 10px
+		background-color moradodark
+		border-radius(10px)
+		transition(.2s)
+	span
+		color #fff
+		margin-left 5px
+				
+.strip
+	background-image url(assets/barra.png)
+	height 5px
+	
+/*----------------------------------------------------------------------------------------contenido*/
+#contenido
+	background-image url(assets/bg.png)
+	height 1159px
+.burbuja
+	background-image url(assets/burbuja.png)
+	height 407px
+	background-repeat no-repeat
+	background-position 50% 50%
+	z-index 2
+	position relative
+	.youboton
+		width 300px
+		margin 0 auto
+		position relative
+		z-index 4
+		margin-top 20px
+		top 175px
+		left 119px
+.divertidos
+	background-image url(assets/productos.png)
+	height 407px
+	background-repeat no-repeat
+	background-position 70% 50%
+	margin-top 125px
+/*----------------------------------------------------------------------------------------separador*/
+	.sirebar
+		height 0
+		width 100px
+		margin 0 auto
+		position relative
+		bottom	63px
+/*----------------------------------------------------------------------------------------footer*/
+footer
+	background-image url(assets/footer.png)
+	height 416px
+	background-repeat no-repeat
+	color #fff
+	.contacto
+		margin-top 90px
+		text-align center
+		p
+			line-height 7px
+		span
+			color menta
+	.social
+		margin-top 90px
+		text-align center
+		.marcas
+			margin-top 20px
+	.correo
+		margin-top 90px
+		text-align center
+#submit
+	background-color naranja
+	color morado
+	border none
+	padding 10px
+	position relative
+	right 4px
+	transition(.2s)
+	&:hover
+		background-color menta
+		color #fff
+		
+#caja
+	padding 10px
+	border none
+	color morado
+	
+.menufoo
+	text-align center
+	margin-top 50px
+	ul
+		li
+			display inline-block
+			a
+				color #fff
+				text-decoration no-repeat
+				padding 10px
+				margin-right 30px
+				&:hover
+					text-decoration none
+					padding 10px
+					background-color moradodark
+					transition(.2s)
+					border-radius(10px)
+.legal
+	text-align center
+	color gris
+	margin-top 40px
+	
+.pagos
+	width 300px
+	margin 0 auto
+	margin-top 32px

@@ -1,0 +1,242 @@
+@import 'bootstrap/css/bootstrap.min.css';
+/*----------------------------------------------------------------------------------------fuentes*/
+@font-face {
+  font-family: museosansrounded;
+  src: url("fonts/museosansrounded-300-webfont.ttf");
+}
+@font-face {
+  font-family: museosansrounded;
+  src: url("fonts/museosansrounded-500-webfont.ttf");
+}
+/*----------------------------------------------------------------------------------------generales*/
+body {
+  font-family: museosansrounded;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/*----------------------------------------------------------------------------------------header*/
+header {
+  background-color: #762172;
+  height: 77px;
+  width: auto;
+}
+header nav ul {
+  position: relative;
+  top: 30px;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  background-color: #762172;
+  padding: 8px 10px;
+  color: #fff;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 10px;
+  background-color: #631c60;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+header .logo {
+  width: 317px;
+  height: auto;
+  margin: 20px auto 0 auto;
+  z-index: 3;
+  position: relative;
+}
+header .secondmenu ul {
+  position: relative;
+  top: 30px;
+  right: 22px;
+}
+header .secondmenu ul li {
+  display: inline-block;
+}
+header .secondmenu ul li a {
+  background-color: #762172;
+  padding: 8px 10px;
+  color: #fff;
+}
+header .secondmenu ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 10px;
+  background-color: #631c60;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.iconos {
+  position: relative;
+  margin-left: 192px;
+}
+.iconos img {
+  margin-right: 20px;
+}
+.carrito {
+  position: relative;
+  bottom: 26px;
+  left: 10px;
+  margin-left: 250px;
+  padding: 8px 10px;
+  background-color: #762172;
+}
+.carrito:hover {
+  padding: 8px 10px;
+  background-color: #631c60;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.carrito span {
+  color: #fff;
+  margin-left: 5px;
+}
+.strip {
+  background-image: url("assets/barra.png");
+  height: 5px;
+}
+/*----------------------------------------------------------------------------------------contenido*/
+#contenido {
+  background-image: url("assets/bg.png");
+  height: 1159px;
+}
+.burbuja {
+  background-image: url("assets/burbuja.png");
+  height: 407px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 2;
+  position: relative;
+}
+.burbuja .youboton {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 4;
+  margin-top: 20px;
+  top: 175px;
+  left: 119px;
+}
+.divertidos {
+  background-image: url("assets/productos.png");
+  height: 407px;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  margin-top: 125px;
+}
+/*----------------------------------------------------------------------------------------separador*/
+.sirebar {
+  height: 0;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 63px;
+}
+/*----------------------------------------------------------------------------------------footer*/
+footer {
+  background-image: url("assets/footer.png");
+  height: 416px;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+footer .contacto {
+  margin-top: 90px;
+  text-align: center;
+}
+footer .contacto p {
+  line-height: 7px;
+}
+footer .contacto span {
+  color: #00beba;
+}
+footer .social {
+  margin-top: 90px;
+  text-align: center;
+}
+footer .social .marcas {
+  margin-top: 20px;
+}
+footer .correo {
+  margin-top: 90px;
+  text-align: center;
+}
+#submit {
+  background-color: #fcb040;
+  color: #762172;
+  border: none;
+  padding: 10px;
+  position: relative;
+  right: 4px;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+#submit:hover {
+  background-color: #00beba;
+  color: #fff;
+}
+#caja {
+  padding: 10px;
+  border: none;
+  color: #762172;
+}
+.menufoo {
+  text-align: center;
+  margin-top: 50px;
+}
+.menufoo ul li {
+  display: inline-block;
+}
+.menufoo ul li a {
+  color: #fff;
+  text-decoration: no-repeat;
+  padding: 10px;
+  margin-right: 30px;
+}
+.menufoo ul li a:hover {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #631c60;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.legal {
+  text-align: center;
+  color: #977e97;
+  margin-top: 40px;
+}
+.pagos {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
